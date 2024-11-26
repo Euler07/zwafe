@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Kdam Thmor Pro';
+    src: url(/assets/fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(/assets/fonts/Raleway/static/Raleway-Medium.ttf) format('truetype');
+}
+
+header {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navigation-bar a {
+    font-family: 'Raleway-Medium', sans-serif;
+    color: black;
+}
+
+.navigation-bar a:hover {
+    color: aquamarine;
+}
+
+h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery-box {
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+}

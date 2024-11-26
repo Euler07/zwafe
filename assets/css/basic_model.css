@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Kdam Thmor Pro';
+    src: url(/assets/fonts/Kdam_Thmor_Pro/KdamThmorPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(/assets/fonts/Raleway/static/Raleway-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway-BlackItalic';
+    src: url(/assets/fonts/Raleway/static/Raleway-BlackItalic.ttf) format('truetype');
+}
+
+header {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navigation-bar a {
+    font-family: 'Raleway-Medium', sans-serif;
+    color: black;
+}
+
+.navigation-bar a:hover {
+    color: aquamarine;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vw;
+
+    font-family: 'Raleway-Medium', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 1fr 70px;
+
+    gap: 10px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container div {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    font-family: 'Raleway-BlackItalic';
+    text-align: center;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.content-large {
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+h3 {
+    text-align: center;
+}
+
+div.logos-box {
+    text-align: center;
+    border: none;
+}
+
+.logos-box img {
+    padding: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.footer {
+    grid-column: 1 / span 3;
+}
+

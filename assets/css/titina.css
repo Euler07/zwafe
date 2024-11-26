@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 640px;
+    position: relative;
+}
+
+.down-img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.down-img img {
+    margin: 35px;
+    padding: 20px;
+    width: 160px;
+}
+
+.hover-animation {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: 10% auto;
+    color: #fff;
+}
+
+.hover-animation img {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover-animation img.img-ahover:hover{
+    opacity:0;
+    cursor: pointer;
+  }
+  
